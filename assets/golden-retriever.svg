@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 280" role="img" aria-labelledby="title desc">
+  <title id="title">Golden Retriever illustration</title>
+  <desc id="desc">A friendly Golden Retriever standing in a green park.</desc>
+  <rect width="400" height="280" rx="24" fill="#E9F2E3"/>
+  <circle cx="330" cy="53" r="20" fill="#FFF4CE"/>
+  <path d="M0 215 Q90 193 190 211 T400 200 V280 H0Z" fill="#D8E9D0"/>
+  <ellipse cx="204" cy="233" rx="123" ry="15" fill="#C2D7BB"/>
+
+  <path d="M119 153 Q89 135 76 112" fill="none" stroke="#D99E49" stroke-width="18" stroke-linecap="round"/>
+  <path d="M140 180 L138 223 Q149 231 161 223 L167 179Z" fill="#C58A3C"/>
+  <path d="M182 183 L181 224 Q193 231 205 224 L207 182Z" fill="#E9C17A"/>
+  <path d="M231 180 L230 223 Q241 231 253 223 L255 176Z" fill="#C58A3C"/>
+  <path d="M258 171 L260 223 Q272 231 283 222 L280 165Z" fill="#E9C17A"/>
+
+  <ellipse cx="198" cy="162" rx="93" ry="50" fill="#DCA650"/>
+  <path d="M228 133 Q255 131 278 153 L281 180 Q258 191 236 177Z" fill="#F1D49B"/>
+  <path d="M256 133 Q276 137 286 153 L274 166 Q258 154 249 145Z" fill="#EAC477"/>
+
+  <ellipse cx="254" cy="118" rx="16" ry="33" transform="rotate(-23 254 118)" fill="#B97836"/>
+  <ellipse cx="315" cy="112" rx="17" ry="34" transform="rotate(14 315 112)" fill="#B97836"/>
+  <circle cx="285" cy="108" r="43" fill="#E0AD5F"/>
+  <ellipse cx="305" cy="130" rx="25" ry="16" fill="#F7E8C8"/>
+  <path d="M274 75 Q284 86 283 108 Q282 124 276 133 Q264 119 264 102 Q265 86 274 75Z" fill="#FFF1D4"/>
+  <circle cx="297" cy="99" r="4" fill="#262522"/>
+  <ellipse cx="326" cy="127" rx="6" ry="5" fill="#262522"/>
+</svg>

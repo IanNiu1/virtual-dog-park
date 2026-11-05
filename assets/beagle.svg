@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 280" role="img" aria-labelledby="title desc">
+  <title id="title">Beagle illustration</title>
+  <desc id="desc">A tricolor Beagle standing in a sunny park.</desc>
+  <rect width="400" height="280" rx="24" fill="#F5EBD9"/>
+  <circle cx="332" cy="55" r="21" fill="#FFF8E8"/>
+  <path d="M0 212 Q110 188 205 211 T400 202 V280 H0Z" fill="#E3EDD9"/>
+  <ellipse cx="202" cy="232" rx="120" ry="15" fill="#CCD9C3"/>
+
+  <path d="M121 157 Q96 142 91 119" fill="none" stroke="#A85E35" stroke-width="15" stroke-linecap="round"/>
+  <path d="M92 122 Q86 116 88 109" fill="none" stroke="#F9F7EF" stroke-width="8" stroke-linecap="round"/>
+
+  <path d="M140 179 L137 222 Q147 230 160 224 L166 181Z" fill="#A85E35"/>
+  <path d="M184 182 L183 224 Q194 231 205 224 L207 183Z" fill="#F9F7EF"/>
+  <path d="M231 180 L229 223 Q240 230 251 223 L254 177Z" fill="#A85E35"/>
+  <path d="M258 174 L260 222 Q271 230 282 222 L279 166Z" fill="#F9F7EF"/>
+
+  <ellipse cx="198" cy="163" rx="91" ry="49" fill="#F9F7EF"/>
+  <path d="M126 148 Q158 119 205 120 Q230 121 247 145 L242 172 Q194 184 143 168Z" fill="#292D30"/>
+  <path d="M225 137 Q255 133 278 154 L283 175 Q261 186 238 177Z" fill="#A85E35"/>
+
+  <ellipse cx="253" cy="119" rx="17" ry="38" transform="rotate(-16 253 119)" fill="#81452D"/>
+  <ellipse cx="315" cy="115" rx="17" ry="38" transform="rotate(12 315 115)" fill="#81452D"/>
+  <circle cx="284" cy="111" r="43" fill="#B86F3D"/>
+  <path d="M276 72 Q285 82 284 108 Q282 124 274 137 Q264 124 264 107 Q264 86 276 72Z" fill="#F9F7EF"/>
+  <ellipse cx="302" cy="131" rx="24" ry="15" fill="#F9F7EF"/>
+  <circle cx="296" cy="101" r="4" fill="#202323"/>
+  <ellipse cx="323" cy="128" rx="6" ry="5" fill="#202323"/>
+</svg>

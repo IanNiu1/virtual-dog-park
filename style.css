@@ -328,3 +328,39 @@ main {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
+.growth {
+  margin-block: 1.5rem;
+}
+
+.growth__labels {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+.growth-meter {
+  height: 0.9rem;
+  overflow: hidden;
+  border-radius: 999px;
+  background: #e5eae2;
+}
+
+.growth-meter__fill {
+  width: 33.333%;
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, #85bb87, #38785a);
+  transition: width 200ms ease;
+}
+
+.button--secondary {
+  border: 1px solid var(--color-border);
+  color: var(--color-forest-dark);
+  background: #ffffff;
+}
+
+.button--secondary:hover {
+  background: #eef3ec;
+}

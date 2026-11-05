@@ -179,9 +179,32 @@
         </div>
       </dl>
 
+    <div class="growth">
+        <div class="growth__labels">
+          <span>Growth progress</span>
+          <span id="growth-label">Puppy</span>
+        </div>
+        <div
+          class="growth-meter"
+          id="growth-meter"
+          role="progressbar"
+          aria-label="Dog growth stage"
+          aria-valuemin="1"
+          aria-valuemax="3"
+          aria-valuenow="1"
+          aria-valuetext="Puppy"
+        >
+          <div class="growth-meter__fill" id="growth-meter-fill"></div>
+        </div>
+      </div>
+
       <div class="pet-actions">
         <button class="button" id="feed-button" type="button">Feed</button>
         <button class="button" id="play-button" type="button">Play</button>
+    <button class="button" id="next-day-button" type="button">Next Day</button>
+    <button class="button button--secondary" id="start-over-button" type="button">
+        Start Over
+        </button>
       </div>
 
       <p id="pet-message" class="status-message" role="status" aria-live="polite"></p>

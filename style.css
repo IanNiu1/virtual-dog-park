@@ -193,3 +193,138 @@ main {
     transition-duration: 0.01ms !important;
   }
 }
+.adoption-section {
+  margin-top: clamp(3rem, 7vw, 5rem);
+}
+
+.adoption-form,
+.pet-panel {
+  max-width: 48rem;
+  padding: clamp(1rem, 4vw, 2rem);
+  border: 1px solid var(--color-border);
+  border-radius: 1rem;
+  background: var(--color-card);
+  box-shadow: 0 0.5rem 1.5rem rgb(28 58 43 / 6%);
+}
+
+.adoption-form {
+  display: grid;
+  gap: 1rem;
+}
+
+.form-field {
+  display: grid;
+  gap: 0.35rem;
+}
+
+.form-field label {
+  font-weight: 700;
+}
+
+.form-field input,
+.form-field select {
+  width: 100%;
+  min-height: 2.8rem;
+  padding: 0.65rem 0.75rem;
+  border: 1px solid #aebbb0;
+  border-radius: 0.5rem;
+  color: inherit;
+  background: #ffffff;
+  font: inherit;
+}
+
+.form-field input:focus,
+.form-field select:focus {
+  outline: 3px solid #b8d9c0;
+  border-color: var(--color-forest);
+}
+
+.field-help {
+  margin: 0;
+  color: var(--color-muted);
+  font-size: 0.9rem;
+}
+
+.button {
+  width: fit-content;
+  min-height: 2.75rem;
+  padding: 0.65rem 1.1rem;
+  border: 0;
+  border-radius: 0.55rem;
+  color: #ffffff;
+  background: var(--color-forest);
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: var(--color-forest-dark);
+}
+
+.button:focus-visible {
+  outline: 3px solid #9fbea6;
+  outline-offset: 3px;
+}
+
+.pet-panel {
+  margin-top: 1.25rem;
+}
+
+.pet-panel[hidden] {
+  display: none !important;
+}
+
+.pet-heading h2 {
+  margin: 0;
+  color: var(--color-forest-dark);
+  font-size: clamp(1.8rem, 4vw, 2.5rem);
+}
+
+.pet-stats {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.75rem;
+  margin: 1.5rem 0;
+}
+
+.pet-stats > div {
+  min-width: 0;
+  padding: 1rem;
+  border: 1px solid var(--color-border);
+  border-radius: 0.75rem;
+  background: #f7f8f3;
+}
+
+.pet-stats dt {
+  color: var(--color-muted);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.pet-stats dd {
+  margin: 0.3rem 0 0;
+  font-weight: 700;
+  overflow-wrap: anywhere;
+}
+
+.pet-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.status-message {
+  min-height: 1.5em;
+  margin: 0.75rem 0 0;
+  color: var(--color-forest-dark);
+}
+
+@media (max-width: 560px) {
+  .pet-stats {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}

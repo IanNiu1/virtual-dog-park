@@ -117,6 +117,75 @@
         </article>
       </div>
     </section>
+        <section class="adoption-section" id="adoption-section" aria-labelledby="adoption-title">
+      <div class="section-heading">
+        <p class="eyebrow">READY TO MAKE A FRIEND?</p>
+        <h2 id="adoption-title">My Virtual Dog</h2>
+        <p>Choose a breed and give your new friend a name.</p>
+      </div>
+
+      <form id="adoption-form" class="adoption-form" novalidate>
+        <div class="form-field">
+          <label for="breed-choice">Choose a breed</label>
+          <select id="breed-choice" name="breed">
+            <option value="Beagle">Beagle</option>
+            <option value="Golden Retriever">Golden Retriever</option>
+            <option value="Poodle">Poodle</option>
+          </select>
+        </div>
+
+        <div class="form-field">
+          <label for="dog-name">Dog name</label>
+          <input
+            id="dog-name"
+            name="dogName"
+            type="text"
+            maxlength="20"
+            autocomplete="off"
+            aria-describedby="dog-name-help"
+          >
+          <p id="dog-name-help" class="field-help">
+            Enter 1–20 characters. Spaces inside the name are welcome.
+          </p>
+        </div>
+
+        <button class="button" type="submit">Adopt</button>
+        <p id="adoption-message" class="status-message" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+
+    <section class="pet-panel" id="pet-section" hidden aria-labelledby="pet-name">
+      <div class="pet-heading">
+        <p class="eyebrow">YOUR NEW FRIEND</p>
+        <h2 id="pet-name"></h2>
+      </div>
+
+      <dl class="pet-stats">
+        <div>
+          <dt>Breed</dt>
+          <dd id="pet-breed"></dd>
+        </div>
+        <div>
+          <dt>Growth stage</dt>
+          <dd id="pet-stage"></dd>
+        </div>
+        <div>
+          <dt>Day</dt>
+          <dd id="pet-day"></dd>
+        </div>
+        <div>
+          <dt>Happiness</dt>
+          <dd><span id="pet-happiness"></span> / 100</dd>
+        </div>
+      </dl>
+
+      <div class="pet-actions">
+        <button class="button" id="feed-button" type="button">Feed</button>
+        <button class="button" id="play-button" type="button">Play</button>
+      </div>
+
+      <p id="pet-message" class="status-message" role="status" aria-live="polite"></p>
+    </section>
   </main>
 
   <footer class="site-footer">
